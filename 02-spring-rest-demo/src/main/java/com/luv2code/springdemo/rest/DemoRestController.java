@@ -17,7 +17,7 @@ public class DemoRestController {
 		ZonedDateTime zonedDateTime = ZonedDateTime.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEEE, dd-MMMM-yyy hh:mm:ss a VV");
 		String zonedDateTimeFormattedText = zonedDateTime.format(formatter);
-		return "Hello World!!! Today is " + zonedDateTimeFormattedText;
+		return "Hello World!!! Today is " + zonedDateTimeFormattedText + "\n";
 	}
 
 }
